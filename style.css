@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 16px;
+  background-color: #3F3351;
+  color: #ecebee ;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin: 2rem
+}
+
+.heading h1 {
+  font-size: 4rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.4rem;
+}
+
+#search {
+  width: 50%;
+  font-size: 1.8rem;
+  border-radius: 11px;
+  border: 3px solid #655c74;
+  color: #130f18;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.8rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.item-box {
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 1rem;
+
+}
+
+.item-box img {
+  width: 20rem;
+  height: 31rem;
+  margin-bottom: 0.9rem;
+}
+
